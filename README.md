@@ -46,6 +46,8 @@ TBD
 
 ## TODO
 
+- [ ] Choose mission statement
+
 - [ ] Pick domain
 
 - [ ] Pick host
