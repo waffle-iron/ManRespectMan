@@ -14,15 +14,15 @@ not only represents our lifestyle, but highlights our ability to thrive in it.
 
 ## Color Scheme
 
-- [ ] Base Color - ?
+- [ ] Base Color - #401155
 
-- [ ] Accent Color - ?
+- [ ] Accent Color - #2B823A
 
-- [ ] White - ?
+- [ ] White - #C2A7CE
 
-- [ ] Light Grey - ?
+- [ ] Light Grey - #403A43
 
-- [ ] Dark Grey - ?
+- [ ] Dark Grey - #322E34
 
 ## Domain Registration
 
