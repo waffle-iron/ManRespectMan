@@ -50,4 +50,4 @@ TBD
 
 - [x] Pick color scheme
 
-- [] Design landing page
+- [ ] Design landing page - Codepen: http://codepen.io/patrickdoane/pen/YGKKgO
