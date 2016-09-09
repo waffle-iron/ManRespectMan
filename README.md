@@ -42,12 +42,6 @@ TBD
 
 ## TODO
 
-- [x] Choose mission statement
+- [ ] Design landing page
 
-- [x] Pick domain
-
-- [x] Pick host
-
-- [x] Pick color scheme
-
-- [ ] Design landing page - Codepen: http://codepen.io/patrickdoane/pen/YGKKgO
+- [ ] Setup dev server
