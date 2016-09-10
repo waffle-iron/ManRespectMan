@@ -4,11 +4,16 @@
   "description": "ECommerce Storefront web application",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start process.json",
+    "stop": "pm2 stop process.json"
   },
   "repository": {
     "type": "git",
