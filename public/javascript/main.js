@@ -38,6 +38,6 @@ $(document).ready(function(){
   }
 
   var deadline = '2016-10-31';
-  initializeClock('countdown-timer', deadline);
-
+  initializeClock('countdown-timer-lg', deadline);
+  initializeClock('countdown-timer-mb', deadline);
 });

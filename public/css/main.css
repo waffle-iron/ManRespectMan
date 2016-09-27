@@ -50,6 +50,10 @@ html {
 
 /* Main */
 
+#s-main-lg {
+  height: 95%;
+}
+
 #main-lg {
 }
 
@@ -62,6 +66,7 @@ html {
 
 #h1-lg {
   font-family: 'Lobster', cursive;
+  font-size: 5rem;
 }
 
 #h1-mb {
@@ -69,18 +74,33 @@ html {
   font-size: 3.2rem;
 }
 
-#p-mb {
+#p1-lg {
+  font-size: 20px;
+}
+
+#p1-mb {
   margin-top: 0;
 }
 
-#form-input {
-}
-
-#form-submit {
+#form-submit-lg {
   margin-left: 0;
+  padding-left: 30px;
 }
 
-#countdown-timer {
+#form-submit-mb {
+  margin-left: 0;
+
+}
+
+#submit-lg:hover {
+  background-color: #A99B00;
+}
+
+#submit-mb:hover {
+  background-color: #A99B00;
+}
+
+#countdown-timer-mb {
   width: 100%;
 }
 
