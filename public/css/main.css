@@ -1,0 +1,98 @@
+/* MRM Launch Page */
+/* created by Patrick Doane */
+
+
+/* TODO: Background img for large screens
+html {
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+*/
+
+html {
+  background-color: #4B148C;
+}
+
+/* Colors */
+
+.base-color {
+  background-color: #4B148C !important;
+}
+
+.base-color-text {
+  color: #4B148C;
+}
+
+.accent-color {
+  background-color: #CFBF0E;
+}
+
+.accent-color-2 {
+  background-color: #A99B00;
+}
+
+.accent-color-text {
+  color: #CFBF0E;
+}
+
+/* Header */
+
+/* Main */
+
+#main-lg {
+}
+
+@media all and (orientation: portrait) {
+  #main-mb {
+    position: relative;
+    top: 100px;
+  }
+}
+
+#h1-lg {
+  font-family: 'Lobster', cursive;
+}
+
+#h1-mb {
+  font-family: 'Lobster', cursive;
+  font-size: 3.2rem;
+}
+
+#p-mb {
+  margin-top: 0;
+}
+
+#form-input {
+}
+
+#form-submit {
+  margin-left: 0;
+}
+
+#countdown-timer {
+  width: 100%;
+}
+
+.timer-font {
+  font-weight: 600;
+}
+
+.box {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin: 0 8px;
+  padding: 0;
+}
+
+/* Footer */

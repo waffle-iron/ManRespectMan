@@ -1,59 +1,76 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script src="main.js"></script>
+    <script src="javascript/main.js"></script>
   </head>
   <body>
+    <!-- TODO: Header
     <header>
-      <nav class="purple darken-4">
-      </nav>
     </header>
+    !-->
     <main>
-      <div class="parallax-container hide-on-med-and-down">
-        <div class="parallax">
-          <img src="https://hd.unsplash.com/photo-1468260816143-e29b79f1fe86">
-        </div>
-      </div>
-      <div class="parallax-container hide-on-med-and-up" id="pc-mb-1">
-        <div class="parallax" id="p-mb-1">
-          <img class="responsive-img" src="https://scontent.cdninstagram.com/t51.2885-15/e35/14276377_1831927553690227_1857614785_n.jpg?ig_cache_key=MTMzMzYxNTY1NzcyMzgwNjM4MQ%3D%3D.2">
-        </div>
-      </div>
-      <div class="section-white">
-      </div>
-      <div class="parallax-container">
-        <div class="parallax">
-        </div>
-      </div>
-        </main>
-    <footer class="page-footer purple accent-4">
-      <div class="container">
+      <div class="container hide-on-med-and-down" id="main-lg">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <div class="col l12">
+            <h1 class="white-text center-align" id="h1-lg">ManRespectMan</h1>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
+          <div class="col l12">
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2014 Patrick Doane
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      <div class="container hide-on-large-only" id="main-mb">
+        <div class="row">
+          <div class="col s12">
+            <h1 class="white-text center-align" id="h1-mb">ManRespectMan</h1>
+          </div>
+          <div class="col s12">
+            <p class="accent-color-text center-align" id="p-mb">Lifestyle. Community. Clothing.</p>
+            <p class="white-text center-align">Coming in...</p>
+          </div>
+          <div class="col s12" id="countdown">
+            <div>
+              <div class="row" id="countdown-timer">
+                <div class="box col s2 offset-s2">
+                  <p class="timer-font white-text center-align"><span class="days"></span> D</p>
+                </div>
+                <div class="box col s2">
+                  <p class="timer-font white-text center-align"><span class="hours"></span> H</p>
+                </div>
+                <div class="box col s2">
+                  <p class="timer-font white-text center-align"><span class="minutes"></span> M</p>
+                </div>
+                <div class="box col s2">
+                  <p class="timer-font white-text center-align"><span class="seconds"></span> S</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="col s12" id="email-form">
+            <p class="white-text center-align">Get notified when it happens</p>
+            <div class="row valign-wrapper">
+              <div class="input-field col s6 offset-s1" id="form-input">
+                <input class="validate" id="email" type="email">
+                <label for="email">E-mail</label>
+              </div>
+              <div class="col s2 valign" id="form-submit">
+                <button class="btn accent-color-2" type="submit" name="action">Submit</button>
+              </div>
+            </div>
+          </form>
+          </div>
         </div>
       </div>
+    </main>
+    <!-- TODO: Footer
+    <footer class="page-footer base-color" id="footer">
+      <i class="fa fa-instagram center-align white-text" id="social-media-insta" aria-hidden="true"></i>
     </footer>
+    -->
   </body>
 </html>
