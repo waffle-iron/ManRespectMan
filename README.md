@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/patrickdoane/ManRespectMan.png?label=ready&title=Ready)](https://waffle.io/patrickdoane/ManRespectMan)
 # ManRespectMan.com
 
 Source code and project home for ManRespectMan store front.
